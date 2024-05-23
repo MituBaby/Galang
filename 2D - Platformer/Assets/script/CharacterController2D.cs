@@ -19,7 +19,12 @@ public class CharacterController2D : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
-	[Header("Events")]
+    public Animator animator;
+
+    float horizontalMove = 0f;
+    float runSpeed = 40f;
+
+    [Header("Events")]
 	[Space]
 
 	public UnityEvent OnLandEvent;
@@ -41,7 +46,7 @@ public class CharacterController2D : MonoBehaviour
 			OnCrouchEvent = new BoolEvent();
 	}
 
-	private void FixedUpdate()
+	private void Update()
 	{
 		bool wasGrounded = m_Grounded;
 		m_Grounded = false;
@@ -91,18 +96,36 @@ public class CharacterController2D : MonoBehaviour
 
 				// Disable one of the colliders when crouching
 				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = false;
-			} else
+				{
+                    animator.SetBool("IsJump", false);
+                    m_CrouchDisableCollider.enabled = false;
+                    horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+                    if (Mathf.Abs(horizontalMove) > 0.01)
+                    {
+                        animator.SetBool("IsCrouchWalk", true);
+                    } else if (Mathf.Abs(horizontalMove) == 0)
+                    {
+						animator.SetBool("IsCrouchWalk", false);
+                    }
+                }
+
+                animator.SetBool("IsJump", false);
+                jump = false;
+            } else
 			{
 				// Enable the collider when not crouching
 				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = true;
+				{
+                    m_CrouchDisableCollider.enabled = true;
+					animator.SetBool("IsCrouchWalk", false );
+                }
 
 				if (m_wasCrouching)
 				{
 					m_wasCrouching = false;
 					OnCrouchEvent.Invoke(false);
 				}
+
 			}
 
 			// Move the character by finding the target velocity
@@ -129,7 +152,8 @@ public class CharacterController2D : MonoBehaviour
 			// Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-		}
+            animator.SetBool("IsJump", true);
+        }
 	}
 
 
