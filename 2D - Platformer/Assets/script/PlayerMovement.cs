@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -36,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
         }
+
+
     }
 
     public void OnCrouching(bool isCrouching)
