@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour
     // Fungsi untuk memindahkan scene ke Level 1
     public void GoToLevel1()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Stage1");
     }
 
     // Fungsi untuk memindahkan scene ke Level 2
