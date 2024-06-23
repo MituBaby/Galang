@@ -5,6 +5,7 @@ using UnityEngine;
 public class cekRPGTalk : MonoBehaviour
 {
     public GameObject canvasRPGTalk;
+    public GameObject RPGTalk;
     private PlayerMovement playerMovement;
     private CharacterController2D characterController;
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class cekRPGTalk : MonoBehaviour
         {
             playerMovement.enabled = true;
             characterController.enabled = true;
+            Destroy(RPGTalk);
         }
     }
 }

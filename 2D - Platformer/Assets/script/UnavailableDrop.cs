@@ -5,24 +5,49 @@ using UnityEngine.EventSystems;
 
 public class UnavailableDrop : MonoBehaviour, IDropHandler
 {
-    public Transform organikPosition;
-    public Transform anorganikPosition;
-    public Transform berbahayaPosition;
+    public Transform kulitPisang;
+    public Transform dagingAyam;
+    public Transform semangka;
+    public Transform kantongPlastik;
+    public Transform bungkusKeripik;
+    public Transform baterai;
+    public Transform monitor
+        ;
     public void OnDrop(PointerEventData eventData)
     {
-        if (eventData.pointerDrag.name == "sampahOrganik")
+        if (eventData.pointerDrag.name == "kulitPisang")
         {
-            eventData.pointerDrag.transform.position = organikPosition.position;
+            eventData.pointerDrag.transform.position = kulitPisang.position;
         }
 
-        if (eventData.pointerDrag.name == "sampahAnorganik")
+        if (eventData.pointerDrag.name == "dagingAyam")
         {
-            eventData.pointerDrag.transform.position = anorganikPosition.position;
+            eventData.pointerDrag.transform.position = dagingAyam.position;
         }
 
-        if (eventData.pointerDrag.name == "sampahBerbahaya")
+        if (eventData.pointerDrag.name == "semangka")
         {
-            eventData.pointerDrag.transform.position = berbahayaPosition.position;
+            eventData.pointerDrag.transform.position = semangka.position;
+        }
+
+        if (eventData.pointerDrag.name == "kantongPlastik")
+        {
+            eventData.pointerDrag.transform.position = kantongPlastik.position;
+        }
+
+        if (eventData.pointerDrag.name == "bungkusKeripik")
+        {
+            eventData.pointerDrag.transform.position = bungkusKeripik.position;
+        }
+
+        if (eventData.pointerDrag.name == "baterai")
+        {
+            eventData.pointerDrag.transform.position = baterai.position;
+        }
+
+        if (eventData.pointerDrag.name == "monitor")
+        {
+            eventData.pointerDrag.transform.position = monitor.position;
         }
     }
 

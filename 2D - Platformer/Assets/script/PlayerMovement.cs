@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
+    public GameObject attachedTrash;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,5 +57,20 @@ public class PlayerMovement : MonoBehaviour
     {
         characterController.Move(horizontalMove * Time.deltaTime, crouch, jump);
         jump = false;
+    }
+
+    public void AttachTrash(GameObject trash)
+    {
+        if (attachedTrash == null)
+        {
+            attachedTrash = trash;
+
+            // Tambahkan FixedJoint2D ke pemain dan hubungkan dengan sampah
+            FixedJoint2D joint = gameObject.AddComponent<FixedJoint2D>();
+            joint.connectedBody = trash.GetComponent<Rigidbody2D>();
+            joint.autoConfigureConnectedAnchor = false;
+            joint.anchor = Vector2.zero;
+            joint.connectedAnchor = Vector2.zero;
+        }
     }
 }

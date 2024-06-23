@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class cekSampah : MonoBehaviour
 {
-    public GameObject sampah1, sampah2, sampah3;
+    public GameObject sampah1, sampah2, sampah3, sampah4, sampah5, sampah6, sampah7;
     public GameObject pilahSampah;
-    public GameObject triggerPilahSAmpah;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +15,9 @@ public class cekSampah : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!sampah1 && !sampah2 && !sampah3)
+        if (!sampah1 && !sampah2 && !sampah3 && !sampah4 && !sampah5 && !sampah6 && !sampah7)
         {
-            pilahSampah.SetActive(false);
-            triggerPilahSAmpah.SetActive(false);
+            Destroy(pilahSampah);
             Time.timeScale = 1;
         }
     }
