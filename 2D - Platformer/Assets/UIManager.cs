@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;  // Tambahkan namespace ini untuk mengakses S
 
 public class UIManager : MonoBehaviour
 {
+    public GameObject canvasMainMenu;
     public GameObject canvasPengaturan;
     public GameObject canvasKontrol;
     public GameObject canvasSuara;
@@ -19,6 +20,7 @@ public class UIManager : MonoBehaviour
 
     public void TampilkanPengaturan()
     {
+        canvasMainMenu.SetActive(false);
         canvasPengaturan.SetActive(true);
         canvasKontrol.SetActive(false);
         canvasSuara.SetActive(false);
@@ -26,6 +28,7 @@ public class UIManager : MonoBehaviour
 
     public void KembaliPengaturan()
     {
+        canvasMainMenu.SetActive(true);
         canvasPengaturan.SetActive(false);
         canvasKontrol.SetActive(false);
         canvasSuara.SetActive(false);
@@ -33,6 +36,7 @@ public class UIManager : MonoBehaviour
 
     public void TampilkanKontrol()
     {
+        canvasMainMenu.SetActive(false);
         canvasPengaturan.SetActive(false);
         canvasKontrol.SetActive(true);
         canvasSuara.SetActive(false);
@@ -40,6 +44,7 @@ public class UIManager : MonoBehaviour
 
     public void KembaliKontrol()
     {
+        canvasMainMenu.SetActive(false);
         canvasPengaturan.SetActive(true);
         canvasKontrol.SetActive(false);
         canvasSuara.SetActive(false);
@@ -47,6 +52,7 @@ public class UIManager : MonoBehaviour
 
     public void TampilkanSuara()
     {
+        canvasMainMenu.SetActive(false);
         canvasPengaturan.SetActive(false);
         canvasKontrol.SetActive(false);
         canvasSuara.SetActive(true);
@@ -54,6 +60,7 @@ public class UIManager : MonoBehaviour
 
     public void KembaliSuara()
     {
+        canvasMainMenu.SetActive(false);
         canvasPengaturan.SetActive(true);
         canvasKontrol.SetActive(false);
         canvasSuara.SetActive(false);
