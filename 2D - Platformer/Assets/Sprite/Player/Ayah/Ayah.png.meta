@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac9f35cfa299a484b93846b2d89b0ffc
+guid: 775a845f8513d904f979a85f4b44b3e3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Galang_Idle_0
+      name: Ayah_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8a4c78bb94fe64e90e8c8a830e0ec8
-      internalID: 440036306
+      spriteID: 02aec32dc8f6c414984813c35f7d2818
+      internalID: -548091068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_1
+      name: Ayah_1
       rect:
         serializedVersion: 2
         x: 64
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1789c4b717e6940a92d8e808c55954
-      internalID: 1489348421
+      spriteID: 7d3eb63bd9c244a439f2989c132ab0c6
+      internalID: -86752328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_2
+      name: Ayah_2
       rect:
         serializedVersion: 2
         x: 128
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1847a3aa7aa7524d99b96c0356ec5c8
-      internalID: 1035434562
+      spriteID: 7097bdd3ea103de4eaa6816f28bceb54
+      internalID: 369331537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_3
+      name: Ayah_3
       rect:
         serializedVersion: 2
         x: 192
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36f928f7adc4dc143a7f9cf6e9118d67
-      internalID: 23222348
+      spriteID: 830ecefd6e07c6e4b9dc41ffb8c3c53c
+      internalID: 506974354
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Galang_Idle_0: 440036306
-      Galang_Idle_1: 1489348421
-      Galang_Idle_2: 1035434562
-      Galang_Idle_3: 23222348
+      Ayah_0: -548091068
+      Ayah_1: -86752328
+      Ayah_2: 369331537
+      Ayah_3: 506974354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

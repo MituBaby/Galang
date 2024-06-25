@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac9f35cfa299a484b93846b2d89b0ffc
+guid: 72daf1baee76c1b448959f04cf606212
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Galang_Idle_0
+      name: ibu_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8a4c78bb94fe64e90e8c8a830e0ec8
-      internalID: 440036306
+      spriteID: c55633de5e69c4c42b29411ea273cd39
+      internalID: 36434545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_1
+      name: ibu_1
       rect:
         serializedVersion: 2
         x: 64
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1789c4b717e6940a92d8e808c55954
-      internalID: 1489348421
+      spriteID: 938c8cba6da43ec488033cbe5d03c8db
+      internalID: 459529158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_2
+      name: ibu_2
       rect:
         serializedVersion: 2
         x: 128
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1847a3aa7aa7524d99b96c0356ec5c8
-      internalID: 1035434562
+      spriteID: 21ee0fb985625cc4eae9078e9ce7b4fa
+      internalID: -1047046755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_3
+      name: ibu_3
       rect:
         serializedVersion: 2
         x: 192
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36f928f7adc4dc143a7f9cf6e9118d67
-      internalID: 23222348
+      spriteID: 2d58a12d2dc557a4580c71a4c65101ec
+      internalID: -1406100971
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Galang_Idle_0: 440036306
-      Galang_Idle_1: 1489348421
-      Galang_Idle_2: 1035434562
-      Galang_Idle_3: 23222348
+      ibu_0: 36434545
+      ibu_1: 459529158
+      ibu_2: -1047046755
+      ibu_3: -1406100971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

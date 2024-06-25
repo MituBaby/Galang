@@ -4,7 +4,7 @@ Galang	: iya bu, sebentar lagi kami akan turun
 menjawab ibunya dengan nada yang masih mengantuk, setelah itu galang pun membangunkan adiknya si Laras untuk bangun
 
 Galang	: Laras, bangunlah. Sudah waktunya kita bersiap-siap untuk kegiatan kerja bakti
-Laras 	: (merengek) Aah nanti kak  Lima menit lagi, laras masih ngantuk
+Laras 	: (merengek) Aah nanti kak Lima menit lagi, laras masih ngantuk
 Galang	: ayoo laras banguun nanti kita terlambat
 Laras	: (menggeliat-geliat) Iya, iya. Aku bangun
 Galang	: Ayo, cepat mandi dan ganti pakaian, ibu sudah menyiapkan sarapan untuk kita
@@ -17,7 +17,7 @@ Ketika sedang asik menyantap makanan ayah Laras bertanya kepada Laras
 Ayah	: Laras, kenapa sayurnya tidak dimakan?.
 Ibu	: Ayo dihabiskan dulu sayurnya, sayur banyak vitaminnya lho. Bisa bikin kamu kuat dan sehat.
 Galang	: (Tersenyum sambil makan) Dulu aku juga nggak suka makan sayur, tapi sekarang malah doyan. Rasanya enak kok.
-Laras	: Laras g suka sayur, rasanya aneh kaya makan rumput.
+Laras	: Laras ga suka sayur, rasanya aneh kaya makan rumput.
 Ayah	: Hahaha, memangnya kamu pernah makan rumput laras?. Mungkin karena kamu belum terbiasa. Coba sedikit-sedikit dulu. Kalau sering makan, nanti lama-lama jadi lebih enak."
 ibu 	: Ayo coba dimakan dulu Laras, kaamu belum nyoba kok dah bilang tidak enak, kasihan petani yang sudah lelah untuk menanam sayur. kalau kamu ga makan nanti makanannya mubazir kalau nantinya dibuang.
 Ayah	: Betul kata ibu, apalagi di indonesia sedang Darurat sampah makanan, di tahun 2021 total sampah makanan di Indonesia mencapai 20,93 juta ton per tahun.
@@ -40,7 +40,7 @@ Bu Eka	: Wah, bagus sekali Kalian, walaupun masih kecil tetapi sudah sadar akan 
 Galang	: hehehe, kalau begitu kami bisa bantu-bantu apa nih bu Eka?
 Bu Eka	: wah semangat sekali kalian. Kalau begitu kalian bisa bantu untuk mengumpulkan sampah yang ada di jalan, setelah terkumpul nanti buang sampah tersebut ke dalam tempat sampah yang ada di sekitar.
 Galang	: Oke, Bu Eka. Kami mulai dari mana?
-Pak Budi: Kalian bisa mulai dari depan sana, dekat ___. Banyak sampah yang perlu diambil.
+Bu Eka	: Kalian bisa mulai dari depan sana, dekat ___. Banyak sampah yang perlu diambil.
 Laras	: Siap, Bu Eka. Kami langsung ke sana.
 
 (Galang dan Laras pun segera berangkat menuju lokasi)

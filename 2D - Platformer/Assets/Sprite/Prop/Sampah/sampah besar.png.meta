@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac9f35cfa299a484b93846b2d89b0ffc
+guid: 38b672870b712fb4398820f37e4ec365
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -110,13 +110,97 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Galang_Idle_0
+      name: sampah besar_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba1e201e4569f149ad8aa370b196118
+      internalID: -833498799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampah besar_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 80
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5450236538b514ea0b3a7546b5f2a0
+      internalID: 1494820840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampah besar_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 84
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802eb282518dacc409de1787b826c2db
+      internalID: 1165799870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampah besar_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 83
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcbf41f914ca6743b9f9a3090aa3443
+      internalID: -1112483800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sampah besar_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 19
         width: 64
-        height: 64
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8a4c78bb94fe64e90e8c8a830e0ec8
-      internalID: 440036306
+      spriteID: faef1e43d05fb64469b3fdea2346e8d2
+      internalID: -319178446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_1
+      name: sampah besar_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 68
+        y: 20
+        width: 56
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1789c4b717e6940a92d8e808c55954
-      internalID: 1489348421
+      spriteID: 03d6f578f008d1f4b90996cd641dfdb7
+      internalID: -2147466994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Galang_Idle_2
+      name: sampah besar_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 127
+        y: 16
+        width: 67
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,29 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1847a3aa7aa7524d99b96c0356ec5c8
-      internalID: 1035434562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Galang_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36f928f7adc4dc143a7f9cf6e9118d67
-      internalID: 23222348
+      spriteID: e0168c13d813ab149ae0ec4a0c81c49a
+      internalID: -357626082
       vertices: []
       indices: 
       edges: []
@@ -204,10 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Galang_Idle_0: 440036306
-      Galang_Idle_1: 1489348421
-      Galang_Idle_2: 1035434562
-      Galang_Idle_3: 23222348
+      sampah besar_0: -833498799
+      sampah besar_1: 1494820840
+      sampah besar_2: 1165799870
+      sampah besar_3: -1112483800
+      sampah besar_4: -319178446
+      sampah besar_5: -2147466994
+      sampah besar_6: -357626082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -26,7 +26,7 @@ namespace RPGTALK.Timeline
 				timelineDirector.time = pausedTime;
 			}
 
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Interract"))
             {
                 isPaused = false;
             }
