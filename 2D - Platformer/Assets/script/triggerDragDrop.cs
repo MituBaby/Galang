@@ -8,7 +8,7 @@ public class triggerDragDrop : MonoBehaviour
     public Transform parentTransform;
     public float detectionRange = 2.0f;
     public Transform raycastPoint;
-    public GameObject canvasTele;
+    //public GameObject canvasTele;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,7 @@ public class triggerDragDrop : MonoBehaviour
             float distance = Vector2.Distance(transform.position, sampah1.transform.position);
             if (distance <= detectionRange)
             {
-                canvasTele.SetActive(false);
+                //canvasTele.SetActive(false);
                 Destroy(sampah1);
                 Time.timeScale = 0;
                 InstantiatePrefabAsChild();
@@ -37,7 +37,7 @@ public class triggerDragDrop : MonoBehaviour
             float distance = Vector2.Distance(transform.position, sampah2.transform.position);
             if (distance <= detectionRange)
             {
-                canvasTele.SetActive(false);
+                //canvasTele.SetActive(false);
                 Destroy(sampah2);
                 Time.timeScale = 0;
                 InstantiatePrefabAsChild();

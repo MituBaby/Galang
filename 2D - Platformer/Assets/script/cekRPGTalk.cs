@@ -6,6 +6,8 @@ public class cekRPGTalk : MonoBehaviour
 {
     public GameObject canvasRPGTalk;
     public GameObject RPGTalk;
+    public GameObject triggerDialog;
+
     private PlayerMovement playerMovement;
     private CharacterController2D characterController;
     // Start is called before the first frame update
@@ -22,6 +24,7 @@ public class cekRPGTalk : MonoBehaviour
         {
             playerMovement.enabled = true;
             characterController.enabled = true;
+            triggerDialog.SetActive(true);
             Destroy(RPGTalk);
         }
     }

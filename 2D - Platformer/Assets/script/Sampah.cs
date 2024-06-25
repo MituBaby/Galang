@@ -8,6 +8,7 @@ public class Sampah : MonoBehaviour
     private PlayerMovement playerController;
     public float detectionRange = 2.0f;
     public GameObject interact;
+    //public GameObject fade;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +46,7 @@ public class Sampah : MonoBehaviour
                 Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 if (Vector2.Distance(mousePosition, transform.position) <= detectionRange)
                 {
+                    //fade.SetActive(false);
                     OnTrashClicked();
                 }
             }
