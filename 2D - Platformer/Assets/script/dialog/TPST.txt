@@ -1,0 +1,13 @@
+Ayah	: permisi pak, ini saya ingin membuang sampah yang telah saya kumpulkan selepas kerjabakti
+Petugas	: silahkan pak, masukkan saja kedalam nanti akan saya pilah terlebih dahulu sebelum di proses supaya nantinya dapat didaur ulang
+Laras	: memangnya sampah sampah ini dapat didaur ulang menjadi apa?
+Petugas	: Wah, pertanyaan yang bagus! Sampah ini bisa didaur ulang menjadi macam-macam hal. Misalnya, sampah organik dapat dijadikan pupuk kompos dan pakan ternak.
+Sedangkan untuk sampah anorganik, dapat diolah menjadi bahan baku untuk berbagai produk. Contohnya, plastik bekas bisa diubah menjadi botol, tas belanja, atau peralatan rumah tangga.
+Kaca pecah bisa dilebur dan dibentuk ulang menjadi botol kaca baru atau jendela. Logam seperti aluminium dan besi bisa diolah kembali untuk digunakan dalam industri konstruksi dan pembuatan peralatan.
+Laras	: Wah, ternyata banyak sekali ya, manfaatnya. Jadi semua jenis sampah bisa didaur ulang?
+Petugas	: Tidak semua, tapi sebagian besar bisa. Oleh karena itu, penting untuk memilah sampah sejak dari rumah agar proses daur ulang menjadi lebih mudah dan efisien.
+Kita juga harus mengurangi penggunaan barang sekali pakai dan lebih memilih barang yang dapat digunakan kembali.
+Galang	: Ooh seperti itu ya pak, ngomong ngomong boleh tidak kami berdua membantu bapak untuk memilah sampah yang telah kami kumpulkan?
+Petugas	: Tentu boleh dong, bapak malah merasa sangat terbantu karena dapat bantuan dari kalian berdua, yasudah yuk kita langsung memilah sampahnya
+Galang dan laras : ayo pak
+Petugas	: Hahaha, semangat sekali kalian

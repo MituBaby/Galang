@@ -1,0 +1,8 @@
+Warga 1	: Tau tidak pak, sampah di gorong-gorong itu bikin aliran air tersumbat. Kalau hujan turun, bisa banjir nih.
+Warga 2	: Iya, saya lihat tadi. Tapi saya takut turun ke sana, langit sudah mulai berawan. Kalau tiba-tiba hujan deras, bisa berbahaya.
+Warga 1	: Betul. Kita harus hati-hati. Mungkin lebih baik lapor petugas saja.
+Galang	: Laras, kamu dengar itu? Katanya ada sampah yang menyumbat gorong-gorong.
+Laras	: Iya, Kak. Tapi kenapa nggak ada yang berani turun ke sana?
+Galang	: Mungkin mereka takut hujan turun tiba-tiba. Tapi kalau kita biarkan, bisa banjir. Kita harus cepat bertindak sebelum hujan.
+Laras	: Baik, Kak. Kita bantu mereka, tapi kita harus hati-hati ya.
+Galang	: Tentu, Laras. Yuk, kita turun ke gorong-gorong sekarang dan bersihkan sampahnya.
